@@ -1,7 +1,7 @@
 import os
 
-def IsExistDirectory(a_path: str = None) -> bool:
-    if (a_path is not None) and (len(a_path) > 0):
-        return os.path.isdir(a_path)
+def IsExistFile(a_file: str = None) -> bool:
+    if (a_file is not None) and (len(a_file) > 0):
+        return os.path.isfile(a_file)
     else:
         return False
