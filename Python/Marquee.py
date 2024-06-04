@@ -25,5 +25,7 @@ def MarqueeTest():
     time.sleep(3)
     __isWorking = False
     
-    
+    if marqueeThread is not None:
+        while marqueeThread.is_alive():
+            pass # wait for terminating prev thread
     
