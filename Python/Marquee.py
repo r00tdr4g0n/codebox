@@ -27,5 +27,5 @@ def MarqueeTest():
     
     if marqueeThread is not None:
         while marqueeThread.is_alive():
-            pass # wait for terminating prev thread
+            pass
     
